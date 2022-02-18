@@ -3,29 +3,24 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Updated the page title to be more SEO friendly -->
     <title>Horeiseon | Social Solution Services, Inc.</title>
 </head>
 
 <body>
     <section class="header">
-        <!--make a change here-->
-        <h1>Hori<span class="seo">seo</span>n</h1> 
+        <!--Updated to use header and nav tag to add semantic value-->
+        <header>
+        <h1>Hori<abbr title="Search Engine Optimization" class="seo">seo</abbr>n</h1> 
         <nav>
-            <ul>
-                <li class="nav-link">
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
+            <a href="#search-engine-optimization">Search Engine Optimization</a>
+        </a>
+            <a href="#online-reputation-management">Online Reputation Management</a>
+        </a>
+            <a href="#social-media-marketing">Social Media Marketing</a>
         </nav>
-    </section>
+    </header>
 
-    <div class="hero"></div>
     <section class="content">
         <article id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
@@ -51,7 +46,7 @@
     </section>
 
     <div class="benefits">
-        <div class="benefit">
+        <!-- Updated classes for benefit -->
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
             <p>
@@ -71,7 +66,6 @@
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
     </div>
 
     <div class="footer">
