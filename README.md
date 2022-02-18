@@ -7,4 +7,4 @@
 ## Visuals
 
 
-![alt text](images/horiseon modified page.jpg)
+![alt text](./Horeiseon-Social-Solution-Services-Inc-.png)
